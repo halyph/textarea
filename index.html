@@ -41,6 +41,7 @@
 <script>
   const article = document.querySelector('article')
   article.addEventListener('input', debounce(500, save))
+  article.addEventListener('blur', save)
   addEventListener('DOMContentLoaded', load)
   addEventListener('hashchange', load)
   addEventListener('load', () => new MutationObserver(save).observe(article, {attributeFilter: ['style']}))
