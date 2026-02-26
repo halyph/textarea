@@ -2,8 +2,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#2B2B2B" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon.png">
 <link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <title>QR Code</title>
 <style>
   * {
@@ -18,8 +24,8 @@
     color: #161616;
 
     @media (prefers-color-scheme: dark) {
-      background-color: #000;
-      color: #fff;
+      background-color: #2B2B2B;
+      color: #A9B7C6;
     }
   }
 
@@ -29,7 +35,9 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font: 18px / 1.5 system-ui;
+    font-family: "Rubik", system-ui, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
     padding: 20px;
   }
 
@@ -48,11 +56,19 @@
   }
 
   a {
-    color: inherit;
+    color: #0066cc;
     text-decoration: underline;
     text-underline-offset: 6px;
     text-decoration-thickness: 1px;
     transition: opacity 0.2s;
+
+    @media (prefers-color-scheme: dark) {
+      color: #6897BB;
+    }
+  }
+
+  a:hover {
+    opacity: 0.8;
   }
 </style>
 
@@ -65,9 +81,9 @@
 <script>
   function render() {
     const hash = location.hash
-    const url = 'https://textarea.my/' + hash
+    const url = 'https://halyph.github.io/textarea/' + hash
     const link = document.getElementById('link')
-    link.href = '/' + hash
+    link.href = '/textarea/' + hash
 
     const typeNumber = 0
     const errorCorrectionLevel = 'L'
