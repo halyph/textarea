@@ -1,10 +1,11 @@
 {
-  "name": "Textarea",
+  "name": "Textarea - Darkula Markdown Editor",
   "short_name": "Textarea",
-  "start_url": "/",
+  "description": "Minimalist markdown editor with beautiful Darkula styling",
+  "start_url": "/textarea/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#2B2B2B",
+  "theme_color": "#2B2B2B",
   "icons": [
     {
       "src": "icon.png",
