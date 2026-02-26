@@ -1,6 +1,6 @@
-# [halyph/textarea](halyph.github.io/textarea/)
+# [halyph/textarea](https://halyph.github.io/textarea/)
 
-A _minimalist_ text editor that lives entirely in your browser and stores everything in the URL hash.
+A _minimalist_ markdown editor with beautiful Darkula styling that lives entirely in your browser and stores everything in the URL hash.
 
 ![textarea](.github/textarea.png)
 
@@ -14,7 +14,10 @@ A _minimalist_ text editor that lives entirely in your browser and stores everyt
 
 - 🗜️ **Compression** – Your text gets compressed with deflate
 - 🔗 **URL hash** – Share your notes by copying a URL
-- 💕 **Style** – Customize the look with CSS via DevTools
+- 🎨 **Darkula Styling** – Beautiful JetBrains-inspired dark theme with distinct colors for each element
+- ✨ **Live Markdown** – Real-time syntax highlighting with colored headers, bold, italic, and code
+- ⌨️ **Keyboard Shortcuts** – Ctrl/Cmd+B for bold, Ctrl/Cmd+I for italic
+- 🔤 **Rubik Font** – Clean, modern typography for improved readability
 
 ## How It Works
 
@@ -34,13 +37,13 @@ A _minimalist_ text editor that lives entirely in your browser and stores everyt
   5. Restores cursor position
 
 **Supported Markdown Syntax**
-- Headers: `# Title`, `## Title`, etc.
-- Bold: `**text**` or `__text__`
-- Italic: `*text*` or `_text_`
+- Headers: `# Title`, `## Title`, etc. (H1-H6 with distinct colors)
+- Bold: `**text**` or `__text__` (rendered in gold)
+- Italic: `*text*` or `_text_` (rendered in green)
 - Strikethrough: `~~text~~`
-- Inline code: `` `code` ``
-- Code blocks: ` ```code``` `
-- URLs: Auto-detected HTTP(S) links
+- Inline code: `` `code` `` (rendered in green with background)
+- Code blocks: ` ```code``` ` (rendered in elevated panel)
+- URLs: Auto-detected HTTP(S) links (clickable)
 
 **Custom Editor**
 - Manages contenteditable behavior with cursor preservation
@@ -61,16 +64,18 @@ A _minimalist_ text editor that lives entirely in your browser and stores everyt
 - Shareable: Copy URL to share document
 
 **Current Limitations**
-- No lists or tables: Regex patterns don't recognize `- item` or `| table |` syntax
-- Regex-based parsing: Not a full markdown parser, edge cases may not work
-- Complex cursor management: Save/restore logic can be fragile with pattern conflicts
+- No bullet or numbered lists support
+- No tables support
+- Regex-based parsing: Not a full markdown parser, some edge cases may not work
+- No markdown links syntax (`[text](url)`) - only plain URLs are detected
 
 ## Pro tips
 
 - Start your document with `# Title` to set a custom page title
-- Your data lives in localStorage AND the URL. Double the fun!
-- Add a `style` attribute to the `<article>` tag via DevTools. It'll be saved in the URL too!
-- Add [`/qr`](https://textarea.my/qr#c0_NSy1KLElVSFQIDFJIzk9JVUjLL1KozC8tUsjLL0ktVgQA) to get a QR code for the current page
+- Your data lives in localStorage AND the URL - double the fun!
+- Use **Ctrl/Cmd+B** for bold and **Ctrl/Cmd+I** for italic
+- Use **Ctrl/Cmd+S** to download as HTML
+- Try the Darkula theme by switching your system to dark mode
 
 ## Credits
 
