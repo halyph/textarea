@@ -1,8 +1,14 @@
-# [textarea.my](https://textarea.my)
+# [halyph/textarea](halyph.github.io/textarea/)
 
 A _minimalist_ text editor that lives entirely in your browser and stores everything in the URL hash.
 
 ![textarea](.github/textarea.png)
+
+
+## Examples
+
+- [A Markdown Example](https://halyph.github.io/textarea/#bVRNcxs3DL3zV7x6L_ZGkh23J7k5tKpVe-rMZCxNMr2JS0K7rLjEDj8sKZnot3e4K9mu0xuJBwIPwAMLfJR-o3nrcKtNZI9Fw1slA4miwIIUO40HeiKLO5KavCiKAsvG-B_NBeacfGx-BArMzfp_gQILs3uLiGVjAjSr1JKL0NSyC9HLSAHSWsSGEOLeGldjTTImTwEhdR37SBrVHjEHoL6giciVLGkXMWffyhiNq4X4mxOUdGjlhhAzWpYVW12WiAxqu0YG85Vg2hxVuoiOjYthhBQIpYnSGlVizR4hVdHS6U0YQTqNwyFEb3LsxnOqm8MBnKKWmaBx656JYTcRYsZtZVx2pBbGgR0hkIvkFE3Rt8KEZ3ajobZsOXIY8j1bB8fednQoy6EHM9aE251sO0tBiC_eRIJxNidXGbOZ70rlZmOHD_jlegX2WK2TU5ns-QW-wVNM3iH6RDf4vsLWxMa4voUDk9yfPlxlWW1C3yLLriaP4EzXUQxTIVarlTjFxdpU7KRS5txd4JsAzBrnDr9-wPuLU0J3I3A6v_LHOPu8e2O6vrgR3_scufAH4zah5_ZIa_K5sUGIWUNqk4eCJsYuTC8vaxObVE0Utz1p7sghcPKK0Hn-h1QMEyE-m2Be3ugsXO7IT1r-aqyVE_Z1_3xL1bOGT7MuCvxF-4ql13nRfFQpBiHGKMtZ9PZy1mq8w-_lIKzTzN_i9yf8OOC3-GIQcZBPBBlwt_z40Kd-JGnHX9hbfZKB6Nf501Ac_njNVoiyXEQZUyjLKcp7l91qTyGUGfpMPhh2GVtdT95PrlZ5bQmOtvBkSYasLWWTpoDDwVIt1R6_fbo_HNCyJu_weLtYgpweFqvfBLc2dfJ9ftBA8aiVrIqzvIpnU_x8dXU1yveGQ76fWVbS9pferKlK9dm01-hJBnP2aNnT6-Ub4ek_szxmzAK41KzyYMZjIcrly29y-mYC_jTxLlWYW_nEnvTLP5oXAtY8EcLeRblDY-rGmrrJH89PpRD_Ag==)
+
 
 ## Features
 
@@ -66,7 +72,16 @@ A _minimalist_ text editor that lives entirely in your browser and stores everyt
 - Add a `style` attribute to the `<article>` tag via DevTools. It'll be saved in the URL too!
 - Add [`/qr`](https://textarea.my/qr#c0_NSy1KLElVSFQIDFJIzk9JVUjLL1KozC8tUsjLL0ktVgQA) to get a QR code for the current page
 
-## Examples
+## Credits
 
-- [A Markdown Example](https://halyph.github.io/textarea/#bVRNcxs3DL3zV7x6L_ZGkh23J7k5tKpVe-rMZCxNMr2JS0K7rLjEDj8sKZnot3e4K9mu0xuJBwIPwAMLfJR-o3nrcKtNZI9Fw1slA4miwIIUO40HeiKLO5KavCiKAsvG-B_NBeacfGx-BArMzfp_gQILs3uLiGVjAjSr1JKL0NSyC9HLSAHSWsSGEOLeGldjTTImTwEhdR37SBrVHjEHoL6giciVLGkXMWffyhiNq4X4mxOUdGjlhhAzWpYVW12WiAxqu0YG85Vg2hxVuoiOjYthhBQIpYnSGlVizR4hVdHS6U0YQTqNwyFEb3LsxnOqm8MBnKKWmaBx656JYTcRYsZtZVx2pBbGgR0hkIvkFE3Rt8KEZ3ajobZsOXIY8j1bB8fednQoy6EHM9aE251sO0tBiC_eRIJxNidXGbOZ70rlZmOHD_jlegX2WK2TU5ns-QW-wVNM3iH6RDf4vsLWxMa4voUDk9yfPlxlWW1C3yLLriaP4EzXUQxTIVarlTjFxdpU7KRS5txd4JsAzBrnDr9-wPuLU0J3I3A6v_LHOPu8e2O6vrgR3_scufAH4zah5_ZIa_K5sUGIWUNqk4eCJsYuTC8vaxObVE0Utz1p7sghcPKK0Hn-h1QMEyE-m2Be3ugsXO7IT1r-aqyVE_Z1_3xL1bOGT7MuCvxF-4ql13nRfFQpBiHGKMtZ9PZy1mq8w-_lIKzTzN_i9yf8OOC3-GIQcZBPBBlwt_z40Kd-JGnHX9hbfZKB6Nf501Ac_njNVoiyXEQZUyjLKcp7l91qTyGUGfpMPhh2GVtdT95PrlZ5bQmOtvBkSYasLWWTpoDDwVIt1R6_fbo_HNCyJu_weLtYgpweFqvfBLc2dfJ9ftBA8aiVrIqzvIpnU_x8dXU1yveGQ76fWVbS9pferKlK9dm01-hJBnP2aNnT6-Ub4ek_szxmzAK41KzyYMZjIcrly29y-mYC_jTxLlWYW_nEnvTLP5oXAtY8EcLeRblDY-rGmrrJH89PpRD_Ag==)
+This project is a fork of the original [textarea](https://github.com/antonmedv/textarea) by [Anton Medvedev](https://github.com/antonmedv).
+
+**Enhancements in this fork:**
+- Darkula-inspired color scheme with JetBrains IDE styling
+- Rubik font for improved readability
+- Distinct color hierarchy for all header levels (H1-H6)
+- Enhanced text formatting colors (bold, italic, code)
+- Keyboard shortcuts (Ctrl/Cmd+B for bold, Ctrl/Cmd+I for italic)
+
+The original project provided an excellent foundation for this minimalist markdown editor.
 
