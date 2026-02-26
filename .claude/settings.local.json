@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gh run view 22435874943)"
+      "Bash(gh run view 22435874943)",
+      "Bash(open /Users/oivasiv/Projects/genai/textarea/index.html)"
     ]
   }
 }
